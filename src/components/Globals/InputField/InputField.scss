@@ -1,0 +1,19 @@
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    .input_label{
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .field{
+        border: 2px solid #c0bbbb80;
+        background:#fff;
+        height: 2rem;
+        border-radius:5px;
+        outline: none;
+        padding: 0.5rem;
+    }
+
+}
